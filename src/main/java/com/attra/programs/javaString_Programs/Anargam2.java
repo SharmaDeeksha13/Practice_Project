@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Anargam2 {
-
+// Not a valid logic , it was just  trial.
     public static void main(String[] args)
     {Scanner s1=new Scanner(System.in);
         System.out.println("Enter first String :");
