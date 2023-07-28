@@ -24,7 +24,10 @@ public class Duplicate {
                hmap.put(s2,1);
             }
 
+
         }
+
+
         System.out.println(hmap);
 
         }

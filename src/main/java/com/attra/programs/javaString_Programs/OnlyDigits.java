@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class OnlyDigits {
     public static void main(String[] args)
     {
+
 String s1="deeksha13";
 int sum=0;
 char[] ch1=s1.toCharArray();

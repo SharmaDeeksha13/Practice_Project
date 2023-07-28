@@ -1,27 +1,41 @@
 package com.attra.programs.javaString_Programs;
 
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Anargam2 {
-// Not a valid logic , it was just  trial.
-    public static void main(String[] args)
-    {Scanner s1=new Scanner(System.in);
+    // Second Logic
+    public static void main(String[] args) {
+        Scanner s1 = new Scanner(System.in);
         System.out.println("Enter first String :");
-        String st1=s1.nextLine();
+        String st1 = s1.nextLine();
 
-        Scanner s2=new Scanner(System.in);
+        Scanner s2 = new Scanner(System.in);
         System.out.println("Enter Second String :");
-        String st2=s2.nextLine();
+        String st2 = s2.nextLine();
 
+        String str1 = st1.toLowerCase();
+        String str2 = st2.toLowerCase();
+        char[] ch1 = str1.toCharArray();
+        char[] ch2 = str2.toCharArray();
 
+        if(ch1.length==ch2.length)
+        {
+            Arrays.sort(ch1);
+            Arrays.sort(ch2);
 
-      if(st1.equals(st2))
-      {
-          System.out.println("String is anargam");
-      }
-      else
-      {System.out.println("String is not a anargam");}
+            boolean isEqual=Arrays.equals(ch1,ch2);
+
+            if(isEqual)
+            {System.out.println("String is Anargam");
+            }
+            else {
+                System.out.println("String is not Anargam") ;
+            }
+        }
 
     }
+
+
 }

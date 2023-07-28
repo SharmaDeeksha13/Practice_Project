@@ -13,8 +13,9 @@ public class ReverseTheString_PreserveInsertion {
             {
                 for(int i=c1.length-1;i>=0;i--)
                 {
-                    char c4=c1[i];
-                    s4=s4+Character.toString(c4);
+//                    char c4=c1[i];
+//                    s4=s4+Character.toString(c4);
+                    s4=s4+c1[i];
 
                 }
                s4=s4+s5;

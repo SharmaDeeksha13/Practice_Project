@@ -1,0 +1,7 @@
+<Suite name="suite1">
+    <test name="test1">
+        <classes>
+            <class name ="Launchbrowser"></class>class>
+        </classes>
+    </test>
+</Suite>
